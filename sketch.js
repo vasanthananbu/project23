@@ -87,6 +87,8 @@ function keyPressed() {
 		helicopterSprite.x = helicopterSprite.x + 10;
 	}
 	
+	packageSprite.x= helicopterSprite.position.x;
+	
 	if(keyDown(DOWN_ARROW)){
 		Matter.Body.setStatic(packageBody,false);
 	}
